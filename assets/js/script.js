@@ -411,6 +411,34 @@ document.getElementById("comidaButton").addEventListener("click", function() {
     <li class="modalMenuFood">Pechuga / Chicken Breast . . . . .  $11.95</li>
     <br>
   </ul>
+  <h3 class="modalMenuTittle">Acompañantes / Sides<h3>
+  <ul class="modalMenuItems">
+    <li class="modalMenuFood">Arroz Primitivo  . . . . .  $3.95</li>
+    <ul class="subListItems">
+          <li>- Mamposteado de Habichuelas Rosadas / with Pink Bean</li>
+          <li>- Mamposteado de Habichuelas Blanca / with White Bean</li>
+          <li>- Mamposteado de Ganfules / with Green Peas</li>
+        </ul>
+    <br>
+    <li class="modalMenuFood">Ensalada Verde / Green Salad . . . . .  $2.95</li>
+    <br>
+    <li class="modalMenuFood">Tostones / Fried Platains . . . . .  $3.95</li>
+    <br>
+    <li class="modalMenuFood">Tostones de Pana / Fried Breadfruit . . . . .  $3.95</li>
+    <br>
+    <li class="modalMenuFood">Amarillo / Sweet Platains  . . . . .  $2.95</li>
+    <br>
+    <li class="modalMenuFood">Papas Fritas / French Fries . . . . .  $3.95</li>
+    <br>
+    <li class="modalMenuFood">Arroz Blanco con Habichuelas / Rice and Beans . . . . .  $3.95</li>
+    <br>
+    <li class="modalMenuFood">Mofongo / Smashed Platain  . . . . .  $3.95</li>
+    <br>
+    <li class="modalMenuFood">Majado Malanga / Smashed Roots . . . . .  $3.95</li>
+    <br>
+    <li class="modalMenuFood">Pasta . . . . .  $4.95</li>
+    <br>
+  </ul>
 </div>
   `;
   document.body.appendChild(modal);
