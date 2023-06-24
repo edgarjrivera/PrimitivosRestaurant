@@ -181,7 +181,7 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
   <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
   <h2>Aperitivos:</h2>
   <br>
-  <ul>
+  <ul class="modalMenuItemsStyle">
     <li>Sorullos (12) . . . . .  $6.95</li>
     <br>
     <li>Mozarella Sticks (12) . . . . .  $11.95</li>
@@ -193,10 +193,12 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
     <li>Egg Roll Langosta (12) . . . . .  $13.95</li>
     <br>
     <li>Salmorejo de Langosta (12) . . . . .  $13.95</li>
+        <p>- Acompañado con chips de malanga</p>
     <br>
     <li>Masita de Pescado (12) . . . . .  $11.95</li>
     <br>
     <li>Sopa de Queso Gouda y Piquillo Rostizado . . . . .  $6.95</li>
+        <p>- Acompañada de pan focaccia de tomate</p>
     <br>
     <li>Croquetas Trio (6) . . . . $11.95</li>
     <br>
@@ -207,8 +209,10 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
     <li>Croquetas Manchego (6) . . . . $11.95</li>
     <br>
     <li>Ceviche . . . . $11.95</li>
+        <p>- Acompañado con chips de malanga</p>
     <br>
     <li>Coctel de Pulpo . . . . $13.95</li>
+        <p>- Acompañado con chips de malanga</p>
     <br>
     <li>Coctel de Camarones . . . . $11.95</li>
     <br>
@@ -458,7 +462,7 @@ document.getElementById("postresButton").addEventListener("click", function() {
   <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
   <h2>Postres:</h2>
   <br>
-  <ul>
+  <ul class="modalMenuItemsStyle">
     <li>Creme Brulee . . . . .  $6.95</li>
     <br>
     <li>Creme Brulee Cafe . . . . .  $6.95</li>

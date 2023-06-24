@@ -2193,13 +2193,27 @@ textarea.input-field {
     text-align: center;
   }
 
+
   .modal-content ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     color: #333;
   }
-  
+
+  .modalMenuItemsStyle li {
+    border-bottom: 1px solid #bbb6b6;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .modalMenuItemsStyle p {
+    color: #333;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
   .modal-content .modalMenuItems {
     margin-bottom: 10px;
     border-bottom: 1px solid #bbb6b6;
@@ -2225,6 +2239,12 @@ textarea.input-field {
     list-style-type: disc;
     padding-left: 20px;
     font-size: 14px;
+  }
+
+  .sublistAperitivos .sublistAperitivo{
+    padding-left: 20px;
+    font-size: 2px;
+    color: red;
   }
 
   .close {
