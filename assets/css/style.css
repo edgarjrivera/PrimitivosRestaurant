@@ -2142,9 +2142,9 @@ textarea.input-field {
 
 }
 
-/**
+/******************************
    * MODAL MENU CSS
-   */
+   *************************/
    .modal {
     display: block;
     position: fixed;
@@ -2166,6 +2166,7 @@ textarea.input-field {
     width: 90%;
     display: flex;
     flex-direction: column;
+    max-width: 500px; 
   }
 
   /* titulo del menu */
