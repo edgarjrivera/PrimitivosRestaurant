@@ -196,8 +196,27 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
     <br>
     <li>Masita de Pescado (12) . . . . .  $11.95</li>
     <br>
-    <li>Sopa de Queso Gouda y Piquillo (12) . . . . .  $6.95</li>
+    <li>Sopa de Queso Gouda y Piquillo Rostizado . . . . .  $6.95</li>
     <br>
+    <li>Croquetas Trio (6) . . . . $11.95</li>
+    <br>
+    <li>Croquetas Jamón Serano (6) . . . . $11.95</li>
+    <br>
+    <li>Croquetas Queso Gouda (6) . . . . $11.95</li>
+    <br>
+    <li>Croquetas Manchego (6) . . . . $11.95</li>
+    <br>
+    <li>Ceviche . . . . $11.95</li>
+    <br>
+    <li>Coctel de Pulpo . . . . $13.95</li>
+    <br>
+    <li>Coctel de Camarones . . . . $11.95</li>
+    <br>
+    <li>Chorizo al Vino . . . . $11.95</li>
+    <br>
+    <li>Cortes Frios . . . . $11.95</li>
+    <br>
+    <li>Surtido (20) . . . . $19.95</li>
   </ul>
 </div>
   `;
@@ -414,7 +433,7 @@ document.getElementById("postresButton").addEventListener("click", function() {
   <ul>
     <li>Creme Brulee . . . . .  $6.95</li>
     <br>
-    <li>Creme Brulee Cafe . . . . .  $11.95</li>
+    <li>Creme Brulee Cafe . . . . .  $6.95</li>
     <br>
     <li>Cheesecake Dulce de Leche . . . . .  $6.95</li>
     <br>
