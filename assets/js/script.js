@@ -198,28 +198,25 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
     <br>
     <li>Sopa de Queso Gouda y Piquillo Rostizado . . . . .  $6.95</li>
     <br>
-    <li>Croquetas trio (6) . . . . $11.95</li>
+    <li>Croquetas Trio (6) . . . . $11.95</li>
     <br>
-    <li>Croquetas de jamón serano (6) . . . . $11.95</li>
+    <li>Croquetas Jamón Serano (6) . . . . $11.95</li>
     <br>
-    <li>Croquetas queso gouda (6) . . . . $11.95</li>
+    <li>Croquetas Queso Gouda (6) . . . . $11.95</li>
     <br>
     <li>Croquetas Manchego (6) . . . . $11.95</li>
     <br>
     <li>Ceviche . . . . $11.95</li>
-    <li>acompañado con chips de malanga</li>
-    </ul>
     <br>
     <li>Coctel de Pulpo . . . . $13.95</li>
     <br>
     <li>Coctel de Camarones . . . . $11.95</li>
     <br>
-    <li>Chorizo al vino . . . . $11.95</li>
+    <li>Chorizo al Vino . . . . $11.95</li>
     <br>
     <li>Cortes Frios . . . . $11.95</li>
     <br>
-    <li>Surtido (20) . . . . $11.95</li>
-  
+    <li>Surtido (20) . . . . $19.95</li>
   </ul>
 </div>
   `;
