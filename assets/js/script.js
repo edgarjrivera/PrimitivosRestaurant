@@ -207,9 +207,11 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
     <li>Croquetas Manchego (6) . . . . $11.95</li>
     <br>
     <li>Ceviche . . . . $11.95</li>
+    <li>acompañado con chips de malanga</li>
+    </ul>
     <br>
     <li>Coctel de Pulpo . . . . $13.95</li>
-    <br>'
+    <br>
     <li>Coctel de Camarones . . . . $11.95</li>
     <br>
     <li>Chorizo al vino . . . . $11.95</li>
