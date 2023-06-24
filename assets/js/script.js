@@ -168,3 +168,117 @@ window.addEventListener("mousemove", function (event) {
   }
 
 });
+
+/**
+ * APERITIVOS, PLATO PRINCIPAL Y BEBIDAS BUTTON
+ */
+document.getElementById("aperitivosButton").addEventListener("click", function() {
+  var modal = document.createElement("div");
+  modal.classList.add("modal");
+  modal.innerHTML = `
+  <div class="modal-content">
+  <span class="close">&times;</span>
+  <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
+  <h2>Aperitivos:</h2>
+  <br>
+  <ul>
+    <li>Sorullos (12) . . . . .  $6.95</li>
+    <br>
+    <li>Mozarella Sticks (12) . . . . .  $11.95</li>
+    <br>
+    <li>Queso Frito (12) . . . . .  $6.95</li>
+    <br>
+    <li>Cordon Bleu (12) . . . . .  $11.95</li>
+    <br>
+    <li>Egg Roll Langosta (12) . . . . .  $13.95</li>
+    <br>
+    <li>Salmorejo de Langosta (12) . . . . .  $13.95</li>
+    <br>
+    <li>Masita de Pescado (12) . . . . .  $11.95</li>
+    <br>
+    <li>Sopa de Queso Gouda y Piquillo (12) . . . . .  $6.95</li>
+    <br>
+  </ul>
+</div>
+  `;
+  document.body.appendChild(modal);
+
+  var closeButton = modal.querySelector(".close");
+  closeButton.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+});
+
+document.getElementById("comidaButton").addEventListener("click", function() {
+  var modal = document.createElement("div");
+  modal.classList.add("modal");
+  modal.innerHTML = `
+  <div class="modal-content">
+  <span class="close">&times;</span>
+  <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
+  <h2>Platos Principales:</h2>
+  <br>
+  <ul>
+    <li>Sorullos (12) . . . . .  $6.95</li>
+    <br>
+    <li>Mozarella Sticks (12) . . . . .  $11.95</li>
+    <br>
+    <li>Queso Frito (12) . . . . .  $6.95</li>
+    <br>
+    <li>Cordon Bleu (12) . . . . .  $11.95</li>
+    <br>
+    <li>Egg Roll Langosta (12) . . . . .  $13.95</li>
+    <br>
+    <li>Salmorejo de Langosta (12) . . . . .  $13.95</li>
+    <br>
+    <li>Masita de Pescado (12) . . . . .  $11.95</li>
+    <br>
+    <li>Sopa de Queso Gouda y Piquillo (12) . . . . .  $6.95</li>
+    <br>
+  </ul>
+</div>
+  `;
+  document.body.appendChild(modal);
+
+  var closeButton = modal.querySelector(".close");
+  closeButton.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+});
+
+document.getElementById("bebidasButton").addEventListener("click", function() {
+  var modal = document.createElement("div");
+  modal.classList.add("modal");
+  modal.innerHTML = `
+  <div class="modal-content">
+  <span class="close">&times;</span>
+  <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
+  <h2>Bebidas:</h2>
+  <br>
+  <ul>
+    <li>Sorullos (12) . . . . .  $6.95</li>
+    <br>
+    <li>Mozarella Sticks (12) . . . . .  $11.95</li>
+    <br>
+    <li>Queso Frito (12) . . . . .  $6.95</li>
+    <br>
+    <li>Cordon Bleu (12) . . . . .  $11.95</li>
+    <br>
+    <li>Egg Roll Langosta (12) . . . . .  $13.95</li>
+    <br>
+    <li>Salmorejo de Langosta (12) . . . . .  $13.95</li>
+    <br>
+    <li>Masita de Pescado (12) . . . . .  $11.95</li>
+    <br>
+    <li>Sopa de Queso Gouda y Piquillo (12) . . . . .  $6.95</li>
+    <br>
+  </ul>
+</div>
+  `;
+  document.body.appendChild(modal);
+
+  var closeButton = modal.querySelector(".close");
+  closeButton.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+});
