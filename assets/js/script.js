@@ -253,7 +253,7 @@ document.getElementById("postresButton").addEventListener("click", function() {
   <div class="modal-content">
   <span class="close">&times;</span>
   <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
-  <h2>Bebidas:</h2>
+  <h2>Postres:</h2>
   <br>
   <ul>
     <li>Creme Brulee . . . . .  $6.95</li>
