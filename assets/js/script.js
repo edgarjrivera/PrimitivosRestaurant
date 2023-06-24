@@ -178,7 +178,7 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
   modal.innerHTML = `
   <div class="modal-content">
   <span class="close">&times;</span>
-  <img src="./assets/images/modal-logo.svg" width="160" height="50" alt="Primitivos - inicio" class="modal-logo">
+  <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
   <h2>Aperitivos:</h2>
   <br>
   <ul>
@@ -215,7 +215,7 @@ document.getElementById("comidaButton").addEventListener("click", function() {
   modal.innerHTML = `
   <div class="modal-content">
   <span class="close">&times;</span>
-  <img src="./assets/images/modal-logo.svg" width="160" height="50" alt="Primitivos - inicio" class="modal-logo">
+  <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
   <h2>Platos Principales:</h2>
   <br>
   <ul>
@@ -252,7 +252,7 @@ document.getElementById("bebidasButton").addEventListener("click", function() {
   modal.innerHTML = `
   <div class="modal-content">
   <span class="close">&times;</span>
-  <img src="./assets/images/modal-logo.svg" width="160" height="50" alt="Primitivos - inicio" class="modal-logo">
+  <img src="./assets/images/modal-logo.svg" width="250" height="50" alt="Primitivos - inicio" class="modal-logo">
   <h2>Bebidas:</h2>
   <br>
   <ul>
