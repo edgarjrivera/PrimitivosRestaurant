@@ -13,10 +13,6 @@
 
 <br />
 
-### Demo Screeshots
-
-![Grilli Desktop Demo](./readme-images/desktop.png "Desktop Demo")
-
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -38,11 +34,6 @@ Windows:
 ```bash
 git clone https://github.com/codewithsadee/grilli.git
 ```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
