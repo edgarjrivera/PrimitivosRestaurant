@@ -243,19 +243,19 @@ document.getElementById("comidaButton").addEventListener("click", function() {
   <br>
   <h3 class="modalMenuTittle">Carnes / Meats<h3>
   <ul class="modalMenuItems">
-    <li class="modalMenuFood">Churrasco / Skirt Steak 12oz . . . . .  $6.95</li>
+    <li class="modalMenuFood">Churrasco / Skirt Steak 12oz . . . . .  $19.95</li>
     <br>
-    <li class="modalMenuFood">Filete Mignon / Filet Mignon 9oz . . . . .  $11.95</li>
+    <li class="modalMenuFood">Filete Mignon / Filet Mignon 9oz . . . . .  $25.95</li>
     <br>
-    <li class="modalMenuFood">Osso Bucco de Cerdo / Pork Osso Bucco 20oz. . . . .  $6.95</li>
+    <li class="modalMenuFood">Osso Bucco de Cerdo / Pork Osso Bucco 20oz. . . . .  $19.95</li>
     <br>
-    <li class="modalMenuFood">Ribeye 1lb . . . . .  $11.95</li>
+    <li class="modalMenuFood">Ribeye 1lb . . . . .  $27.95</li>
     <br>
-    <li class="modalMenuFood">Picanha 1lb . . . . .  $13.95</li>
+    <li class="modalMenuFood">Picanha 1lb . . . . .  $24.95</li>
     <br>
-    <li class="modalMenuFood">Tomahawk . . . . .  $13.95</li>
+    <li class="modalMenuFood">Tomahawk . . . . .  $54.95</li>
     <br>
-    <li class="modalMenuFood">Rack de Cordero / Lamb Rack . . . . .  $11.95</li>
+    <li class="modalMenuFood">Rack de Cordero / Lamb Rack . . . . .  $29.95</li>
     <br>
     <li class="subList">Salsas / Sauces:
         <ul class="subListItems">
@@ -280,23 +280,17 @@ document.getElementById("comidaButton").addEventListener("click", function() {
   <ul class="modalMenuItems">
     <li class="modalMenuFood">Salmon 8oz . . . . .  $19.95</li>
     <br>
-    <li class="modalMenuFood">Dorado 8oz . . . . .  $19.95</li>
+    <li class="modalMenuFood">Dorado / Mahi Mahi 8oz . . . . .  $19.95</li>
     <br>
-    <li class="modalMenuFood">Filete de Chillo 12oz. . . . .  $21.95</li>
+    <li class="modalMenuFood">Filete de Chillo / Red Snapper Filet 12oz. . . . .  $21.95</li>
     <br>
-    <li class="modalMenuFood">Rodaballo 8oz . . . . .  $27.95</li>
+    <li class="modalMenuFood">Rodaballo / Turbot 8oz . . . . .  $27.95</li>
     <br>
-    <li class="modalMenuFood">Camarones . . . . .  $19.95</li>
+    <li class="modalMenuFood">Camarones / Shrimp . . . . .  $19.95</li>
     <br>
-    <li class="modalMenuFood">Ensalada de Pulpo . . . . .  $24.95</li>
+    <li class="modalMenuFood">Ensalada de Pulpo / Octopus . . . . .  $24.95</li>
     <br>
-    <li class="modalMenuFood">Filete de Mero . . . . .  $17.95</li>
-    <br>
-    <li class="modalMenuFood">Pechuga . . . . .  $17.95</li>
-    <br>
-    <li class="modalMenuFood">Filete de Mero . . . . .  $17.95</li>
-    <br>
-    <li class="modalMenuFood">Filete de Mero . . . . .  $17.95</li>
+    <li class="modalMenuFood">Filete de Mero / Grouper Filet. . . . .  $17.95</li>
     <br>
     <li class="subList">Salsas / Sauces:
         <ul class="subListItems">
@@ -309,11 +303,11 @@ document.getElementById("comidaButton").addEventListener("click", function() {
   </ul>
   <h3 class="modalMenuTittle">Aves / Birds<h3>
   <ul class="modalMenuItems">
-    <li class="modalMenuFood">Pechuga  . . . . .  $14.95</li>
+    <li class="modalMenuFood">Pechuga / Chricken . . . . .  $14.95</li>
     <br>
-    <li class="modalMenuFood">Pechuga Milanesa . . . . .  $19.95</li>
+    <li class="modalMenuFood">Pechuga Milanesa / Chicken Milanese . . . . .  $19.95</li>
     <br>
-    <li class="modalMenuFood">Codorniz Asada. . . . .  $21.95</li>
+    <li class="modalMenuFood">Codorniz Asada / Roast Quail. . . . .  $21.95</li>
     <br>
     <li class="subList">Salsas / Sauces:
         <ul class="subListItems">
@@ -388,9 +382,9 @@ document.getElementById("comidaButton").addEventListener("click", function() {
           <li>- Salchicha Italiana / Italian Sausage $2.00</li>
           <li>- Vegetales / Vegetables $2.00</li>
           <ul class="subListItems">
-            <li>• Cebolla $0.95</li>
-            <li>• Pimientos $0.95</li>
-            <li>• Zetas $0.95</li>
+            <li>• Cebolla / Onions $0.95</li>
+            <li>• Pimientos / Peppers $0.95</li>
+            <li>• Zetas / Mushrooms $0.95</li>
             <li>• Jalapeños $0.95</li>
           </ul>
           <p>***Cada Ingrediente extra se le añade aparte</p>
