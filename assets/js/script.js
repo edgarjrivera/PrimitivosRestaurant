@@ -475,3 +475,38 @@ document.getElementById("postresButton").addEventListener("click", function() {
     document.body.removeChild(modal);
   });
 });
+
+/**Publicacion FACEBOOK
+ 
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '100093666367694', // Reemplaza con tu ID de aplicación de Facebook
+      autoLogAppEvents: true,
+      xfbml: true,
+      version: 'v12.0'
+    });
+  };
+
+  function loadFacebookPost() {
+    var accessToken = 'TU_ACCESS_TOKEN'; // Reemplaza con tu token de acceso válido
+    var postId = '118332984632247'; // Reemplaza con el ID de la última publicación de Facebook
+
+    FB.api(
+      '/' + postId,
+      { access_token: accessToken, fields: 'permalink_url' },
+      function(response) {
+        if (response && !response.error) {
+          var postContainer = document.getElementById('facebook-post-container');
+          postContainer.innerHTML = '<div class="fb-post" data-href="' + response.permalink_url + '" data-show-text="true"></div>';
+          FB.XFBML.parse(postContainer);
+        }
+      }
+    );
+  }
+
+  setInterval(loadFacebookPost, 60000); // Actualiza cada 60 segundos (ajusta según tus necesidades)
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0&appId=100093666367694&autoLogAppEvents=1" nonce="UN_VALOR_UNICO"></script>
+
+*/
