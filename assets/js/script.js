@@ -182,11 +182,11 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
   <h2>Aperitivos:</h2>
   <br>
   <ul class="modalMenuItemsStyle">
-    <li>Sorullos (12) . . . . .  $6.95</li>
+    <li>Sorullos / Corn sticks(12) . . . . .  $6.95</li>
     <br>
     <li>Mozarella Sticks (12) . . . . .  $11.95</li>
     <br>
-    <li>Queso Frito (12) . . . . .  $6.95</li>
+    <li>Queso Frito / Fried cheese(12) . . . . .  $6.95</li>
     <br>
     <li>Cordon Bleu (12) . . . . .  $11.95</li>
     <br>
@@ -195,7 +195,7 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
     <li>Salmorejo de Langosta (12) . . . . .  $13.95</li>
         <p>- Acompañado con chips de malanga</p>
     <br>
-    <li>Masita de Pescado (12) . . . . .  $11.95</li>
+    <li>Masita de Pescado / Fish sticks (12) . . . . .  $11.95</li>
     <br>
     <li>Sopa de Queso Gouda y Piquillo Rostizado . . . . .  $6.95</li>
         <p>- Acompañada de pan focaccia de tomate</p>
@@ -214,7 +214,7 @@ document.getElementById("aperitivosButton").addEventListener("click", function()
     <li>Coctel de Pulpo . . . . $13.95</li>
         <p>- Acompañado con chips de malanga</p>
     <br>
-    <li>Coctel de Camarones . . . . $11.95</li>
+    <li>Coctel de Camarones / Shrimp cocktail . . . . $11.95</li>
     <br>
     <li>Chorizo al Vino . . . . $11.95</li>
     <br>
@@ -303,7 +303,7 @@ document.getElementById("comidaButton").addEventListener("click", function() {
   </ul>
   <h3 class="modalMenuTittle">Aves / Birds<h3>
   <ul class="modalMenuItems">
-    <li class="modalMenuFood">Pechuga / Chricken . . . . .  $14.95</li>
+    <li class="modalMenuFood">Pechuga / Chicken . . . . .  $14.95</li>
     <br>
     <li class="modalMenuFood">Pechuga Milanesa / Chicken Milanese . . . . .  $19.95</li>
     <br>
@@ -320,7 +320,7 @@ document.getElementById("comidaButton").addEventListener("click", function() {
   </ul>
   <h3 class="modalMenuTittle">Sopas / Soups<h3>
   <ul class="modalMenuItems">
-    <li class="modalMenuFood">Asopao de Pollo / Chciken Soup  . . . . .  $14.95</li>
+    <li class="modalMenuFood">Asopao de Pollo / Chicken Soup  . . . . .  $14.95</li>
     <br>
     <li class="modalMenuFood">Asopao de Camarones / Shrimp Soup . . . . .  $20.95</li>
     <br>
@@ -413,9 +413,7 @@ document.getElementById("comidaButton").addEventListener("click", function() {
   <ul class="modalMenuItems">
     <li class="modalMenuFood">Arroz Primitivo  . . . . .  $3.95</li>
     <ul class="subListItems">
-          <li>- Mamposteado de Habichuelas Rosadas / with Pink Bean</li>
-          <li>- Mamposteado de Habichuelas Blanca / with White Bean</li>
-          <li>- Mamposteado de Ganfules / with Green Peas</li>
+          <li>- Arroz mamposteado con habichuelas rosadas, blancas y gandules.</li>
         </ul>
     <br>
     <li class="modalMenuFood">Ensalada Verde / Green Salad . . . . .  $2.95</li>
